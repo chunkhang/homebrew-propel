@@ -23,22 +23,12 @@ brew install propel
 
 ### Manual
 
-Add the function to your favorite shell configuration file. 
+Place binary in /usr/local/bin.
 
-**Bash:**
-```sh
-git clone https://github.com/chunkhang/propel.git
-cat propel/propel.sh >> ~/.bash_profile
-rm -rf propel/
-source ~/.bash_profile
-```
-
-**Zsh:**
-```sh
-git clone https://github.com/chunkhang/propel.git
-cat propel/propel.sh >> ~/.zshrc
-rm -rf propel/
-source ~/.zshrc
+```sh 
+git clone https://github.com/chunkhang/homebrew-propel.git
+mv homebrew-propel/bin/propel /usr/local/bin/
+rm -rf homebrew-propel/
 ```
 
 ## Usage
