@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ "$#" -ne 1 ]; then
 	echo "usage: propel <commit message>"
 	echo "git pull -> git add . -> git commit -m <commit message> -> git push"
