@@ -29,10 +29,6 @@ Propel your commit because you can:
 $ propel <commit message>
 ```
 
-## Credits
-
-https://tecadmin.net/create-binary-file-from-shell-script/#
-
 ## Contact
 
 Report bugs or suggest features: <br />
