@@ -10,7 +10,7 @@ else
 	printf "\e[34mgit add .\e[0m\n" &&
 	git add . &&
 	printf "\e[34mgit commit -m \"$1\"\e[0m\n" &&
-	git commit -m $1 &&
+	git commit -m "$1" &&
 	printf "\e[34mgit push\e[0m\n" &&
 	git push &&
 	printf "\e[92mCommit propelled.\e[0m\n"
