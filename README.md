@@ -1,14 +1,6 @@
 # propel
 
-A shell function to make pushing commits that much easier. Basically, propel executes the following four git commands in succession:
-* git pull
-* git add .
-* git commit -m \<commit message\>
-* git push
-
-## Screenshot
-
-![propel](https://user-images.githubusercontent.com/12708862/27552164-d4c51228-5ad8-11e7-80f3-d0cc92b4599b.gif)
+Homebrew Tap for propel
 
 ## Installation
 
@@ -36,6 +28,10 @@ Propel your commit because you can:
 ```sh
 $ propel <commit message>
 ```
+
+## Credits
+
+https://tecadmin.net/create-binary-file-from-shell-script/#
 
 ## Contact
 
