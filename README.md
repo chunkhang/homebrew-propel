@@ -32,14 +32,14 @@ Other users should do it manually.
 $ curl -O https://raw.githubusercontent.com/chunkhang/homebrew-propel/master/bin/propel
 # Make script executable
 $ chmod +x propel
-# Place executable in /usr/local/bin.
+# Place executable in /usr/local/bin
 $ mv propel /usr/local/bin/
 ```
 
 ## Usage
 
 ```sh
-propel <commit message>
+$ propel <commit message>
 ```
 
 ## Customization
@@ -47,7 +47,7 @@ propel <commit message>
 You can easily customize the shell script using any text editor.
 
 ```sh
-vim $(which propel)
+$ vim $(which propel)
 ```
 
 ## Contact
