@@ -1,6 +1,6 @@
 # propel
 
-A shell function to make pushing commits that much easier. Basically, propel executes the following four git commands in succession:
+A shell script to make pushing commits that much easier. Basically, propel executes the following four git commands in succession:
 * git pull
 * git add .
 * git commit -m \<commit message\>
@@ -14,27 +14,40 @@ A shell function to make pushing commits that much easier. Basically, propel exe
 
 ### Homebrew
 
-Preferred method for MacOS users.
+MacOS users should preferably use this method.
 
 ```sh
-brew tap chunkhang/propel
-brew install propel
+# Tap into the repository
+$ brew tap chunkhang/propel
+# Install propel
+$ brew install propel
 ```
 
 ### Manual
 
-Place binary in /usr/local/bin.
+Other users should do it manually.
 
 ```sh 
-git clone https://github.com/chunkhang/homebrew-propel.git
-mv homebrew-propel/bin/propel /usr/local/bin/
-rm -rf homebrew-propel/
+# Download script
+$ curl -O https://raw.githubusercontent.com/chunkhang/homebrew-propel/master/bin/propel
+# Make script executable
+$ chmod +x propel
+# Place executable in /usr/local/bin.
+$ mv propel /usr/local/bin/
 ```
 
 ## Usage
 
 ```sh
 propel <commit message>
+```
+
+## Customization
+
+You can easily customize the shell script using any text editor.
+
+```sh
+vim $(which propel)
 ```
 
 ## Contact
